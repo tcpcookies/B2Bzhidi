@@ -1,0 +1,51 @@
+[
+  {
+    "name": "50L/100L Laboratory Double Planetary Mixer",
+    "url": "https://www.alibaba.com/product-detail/50L-100L-Powerful-Laboratory-Double-Planetary_1601449517132.html",
+    "price": 168350,
+    "model": "ZD-J100L",
+    "barrel_volume_l": 149,
+    "capacity_options": ["2L","3L","5L","10L","20L","30L","40L","50L","100L","200L","500L","1000L"],
+    "material_processed": ["Plastics","Chemicals","Food"],
+    "mixer_type": "Planetary Mixer",
+    "material": ["SUS304","SUS304L","SUS316","SUS316L","Carbon Steel","Steel"],
+    "product_type": ["Cosmetic","Food","Paint","Liquid","Powder","Toothpaste","Reagents"],
+    "heating": true,
+    "voltage": ["440V","380V"],
+    "power_kw": 28.5,
+    "warranty": "1 Year",
+    "weight_kg": 2300,
+    "brand": "ZHIDI",
+    "dimensions": "2110×1270×2310mm",
+    "spindle_speed_range": "0-3 rpm"
+  },
+  {
+    "name": "Vacuum Double Planetary Power Mixer for Slurry Battery Solder Paste",
+    "url": "https://www.alibaba.com/product-detail/Vacuum-double-planetary-power-mixer-for_1601487180431.html",
+    "price": 134680,
+    "model": "ZD-J60L",
+    "barrel_volume_l": 88,
+    "mixer_type": "Planetary Mixer",
+    "material": ["SUS304","SUS304L","SUS316","SUS316L","Carbon Steel","Steel"]
+  },
+  {
+    "name": "Vacuum Double Planetary Mixer for Ceramic Slurry",
+    "url": "https://www.alibaba.com/product-detail/Vacuum-double-planetary-mixer-for-ceramic_1601487186418.html",
+    "price": 107744,
+    "mixer_type": "Planetary Mixer"
+  },
+  {
+    "name": "20L Vacuum Double Planetary Mixer with Integrated Press",
+    "url": "https://www.alibaba.com/product-detail/20L-ZHIDI-Vacuum-Double-Planetary-Mixer_1601527496446.html",
+    "price": 121212,
+    "mixer_type": "Planetary Mixer"
+  },
+  {
+    "name": "Planetary Industrial Paint Mixer Paste Mixing Deaerator",
+    "url": "https://www.alibaba.com/product-detail/Planetary-industrial-paint-mixer-Paste-mixing_1601487197334.html",
+    "price": 84175,
+    "model": "ZD-J15L",
+    "barrel_volume_l": 24,
+    "mixer_type": "Planetary Mixer"
+  }
+]

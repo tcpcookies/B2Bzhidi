@@ -1,0 +1,28 @@
+
+
+<a id="a-link"></a>
+<script>
+  localStorage.x5referer = window.location.href;	
+  var link = document.getElementById("a-link");
+  var isMobile = navigator.userAgent.match(/.*(iPhone|iPad|Android|ios|SymbianOS|Windows Phone).*/i);
+  var host = isMobile ? "https://login.alibaba.com/mini_login.htm?isMobile=true&return_url=" : "https://login.alibaba.com/newlogin/icbuLogin.htm?return_url=";
+  try {
+	var hostValue = window.location.host;
+	var parts = hostValue && hostValue.split('.');
+	var exp = new Date();
+	var maxAge = -100;
+	exp.setTime(exp.getTime() + maxAge);
+	var cookie = 'x5secdata=;maxAge=' + maxAge + ';expires=' + exp.toUTCString() + ';path=/;domain=.' + parts.slice(-2).join('.') + ';';
+	document.cookie = cookie;
+	document.cookie = cookie + 'Secure;SameSite=None';
+  } catch(e) {}
+  link.href = host + "https%3a%2f%2fwww.alibaba.com:443/product-detail/Planetary-industrial-paint-mixer-Paste-mixing_1601487197334.html%2F_____tmd_____%2Fpage%2Flogin_jump%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26_lgt_%3Dbb4d7c4c7f844a7a761006cfa09850e2___118805___66a73015cf7cc38336dcbe60d0f7e11c___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06cc1efa7d65a50e47f3f97abc20efa37b9aa1c12eded4a2a3e6f6bd538aa40256fc66870b8386a6091d4fa89f55cb6c77ed789717ff605a3cc99b93b07dbd2d1fab9e2ec731277e48d3e9c66c858c6954f38d6302388340ccc79733d46820b5319e9a7776ec694bab4fc0e0c37cfe8d222e95669dec8ebefd0673824737aba9336e3e8da5f822bfc5e8d8c679e5988a75350df6a69a112a805415e6a40b10062f460488d123bd0245ca77d525100714f1d60c9bf68a28e6ac8ad036b69453c886b1c24917bc789def894ce3d725795f3ecf14359e43bf4ec2c10de519472cc31e5&uuid=bb4d7c4c7f844a7a761006cfa09850e2";
+  link.click();
+ window._config_ = {
+   "action": "login",
+   "url": "https://login.alibaba.com/mini_login.htm?isMobile=true&return_url=https%3a%2f%2fwww.alibaba.com:443/product-detail/Planetary-industrial-paint-mixer-Paste-mixing_1601487197334.html%2F_____tmd_____%2Fpage%2Fclose_iframe_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3Dbb4d7c4c7f844a7a761006cfa09850e2%26_lgt_%3Dbb4d7c4c7f844a7a761006cfa09850e2___118805___66a73015cf7cc38336dcbe60d0f7e11c___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06cc1efa7d65a50e47f3f97abc20efa37b9aa1c12eded4a2a3e6f6bd538aa40256fc66870b8386a6091d4fa89f55cb6c77ed789717ff605a3cc99b93b07dbd2d1fab9e2ec731277e48d3e9c66c858c6954f38d6302388340ccc79733d46820b5319e9a7776ec694bab4fc0e0c37cfe8d222e95669dec8ebefd0673824737aba9336e3e8da5f822bfc5e8d8c679e5988a75350df6a69a112a805415e6a40b10062f460488d123bd0245ca77d525100714f1d60c9bf68a28e6ac8ad036b69453c886b1c24917bc789def894ce3d725795f3ecf14359e43bf4ec2c10de519472cc31e5",
+   "h5url": "https://login.alibaba.com/mini_login.htm?isMobile=true&return_url=https%3a%2f%2fwww.alibaba.com:443/product-detail/Planetary-industrial-paint-mixer-Paste-mixing_1601487197334.html%2F_____tmd_____%2Fpage%2Fclose_iframe_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3Dbb4d7c4c7f844a7a761006cfa09850e2%26_lgt_%3Dbb4d7c4c7f844a7a761006cfa09850e2___118805___66a73015cf7cc38336dcbe60d0f7e11c___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06cc1efa7d65a50e47f3f97abc20efa37b9aa1c12eded4a2a3e6f6bd538aa40256fc66870b8386a6091d4fa89f55cb6c77ed789717ff605a3cc99b93b07dbd2d1fab9e2ec731277e48d3e9c66c858c6954f38d6302388340ccc79733d46820b5319e9a7776ec694bab4fc0e0c37cfe8d222e95669dec8ebefd0673824737aba9336e3e8da5f822bfc5e8d8c679e5988a75350df6a69a112a805415e6a40b10062f460488d123bd0245ca77d525100714f1d60c9bf68a28e6ac8ad036b69453c886b1c24917bc789def894ce3d725795f3ecf14359e43bf4ec2c10de519472cc31e5",
+   "dialogSize": {"width": "", "height": ""}
+};
+</script>
+<!--rgv587_flag:sm-->
