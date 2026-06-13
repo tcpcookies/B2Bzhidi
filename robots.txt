@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zhiditech.com/sitemap.xml
+
+# Block common bot paths
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /

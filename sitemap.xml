@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://zhiditech.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://zhiditech.com/about.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/contact.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Products -->
+  <url><loc>https://zhiditech.com/products/</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://zhiditech.com/products/planetary-vacuum-mixer.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/products/scraping-grinding-machine.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/products/mixer-machine.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/products/screen-frame-dryer.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/products/screening-machine.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Industries -->
+  <url><loc>https://zhiditech.com/industries/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/industries/lithium-battery.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/industries/electronic-ceramics.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/industries/coatings-inks.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/industries/adhesives-sealants.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/industries/cosmetics-pharma.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/industries/laboratory-research.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Support -->
+  <url><loc>https://zhiditech.com/support/</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://zhiditech.com/support/faq.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Blog -->
+  <url><loc>https://zhiditech.com/blog/</loc><priority>0.6</priority><changefreq>weekly</changefreq></url>
+</urlset>
