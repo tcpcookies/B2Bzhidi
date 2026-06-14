@@ -1,0 +1,30 @@
+/* ZHIDI Tech Admin — Minimal Admin Styles */
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Table hover transitions */
+tr { transition: background-color 0.15s ease; }
+
+/* Smooth transitions on interactive elements */
+a, button, input, select, textarea {
+  transition: all 0.2s ease;
+}
+
+/* Focus ring consistency */
+input:focus, select:focus, textarea:focus {
+  outline: none;
+}
+
+/* Sidebar active state */
+aside a.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+/* Status badges */
+.status-published { background: #f0fdf4; color: #166534; }
+.status-draft { background: #f3f4f6; color: #6b7280; }
+.status-archived { background: #fef2f2; color: #991b1b; }

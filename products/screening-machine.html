@@ -53,15 +53,14 @@
         <!-- Gallery -->
         <div class="product-gallery fade-in">
           <div class="product-gallery-main">
-            <div style="width:100%;aspect-ratio:4/3;background:#fdf2f8;border-radius:12px;display:flex;align-items:center;justify-content:center">
-              <div style="text-align:center">
-                <div style="width:80px;height:80px;background:rgba(236,72,153,0.15);border-radius:20px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px">
-                  <i data-lucide="filter" style="width:40px;height:40px;color:#ec4899"></i>
-                </div>
-                <p style="font-size:0.875rem;color:#db2777;font-weight:600">Screening Machine</p>
-                <p style="font-size:0.75rem;color:#6b7280;margin-top:4px">Product image coming soon</p>
-              </div>
-            </div>
+            <img id="mainImage" src="../assets/images/products/1601498700347_00.png" alt="Mealworm Screening Machine">
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="../assets/images/products/1601498700347_00.png" alt="Main View" class="active" onclick="document.getElementById('mainImage').src=this.src;document.querySelectorAll('.product-gallery-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+            <img src="../assets/images/products/1601498592806_00.png" alt="Side View" onclick="document.getElementById('mainImage').src=this.src;document.querySelectorAll('.product-gallery-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+            <img src="../assets/images/products/1601498655948_00.png" alt="Detail View" onclick="document.getElementById('mainImage').src=this.src;document.querySelectorAll('.product-gallery-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+            <img src="../assets/images/products/1601498669711_00.png" alt="Component View" onclick="document.getElementById('mainImage').src=this.src;document.querySelectorAll('.product-gallery-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+            <img src="../assets/images/products/1601498776615_00.png" alt="Structure View" onclick="document.getElementById('mainImage').src=this.src;document.querySelectorAll('.product-gallery-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
           </div>
         </div>
 

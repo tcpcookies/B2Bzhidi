@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# WorkBuddy
+.workbuddy/
+
+# Admin — SQLite database (runtime data, not code)
+admin/db/*.sqlite
+
+# Node modules (if ever added)
+node_modules/

@@ -3,22 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us — ZHIDI Tech | Get a Quote in 24 Hours</title>
-  <meta name="description" content="Contact ZHIDI Tech for industrial mixing and grinding equipment. Request a quote, schedule a factory visit, or get technical consultation. Response within 24 hours.">
+  <title>Contact Us — Get a Quote in 24 Hours | ZHIDI Tech</title>
+  <meta name="description" content="Contact ZHIDI Tech for industrial mixing equipment quotes. Our engineers respond within 24 hours. WhatsApp, email, or Alibaba — factory direct, worldwide shipping.">
   <link rel="canonical" href="https://zhiditech.com/contact.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 <body>
 
-  <nav class="navbar"><div class="container"><a href="index.html" class="navbar-logo"><img src="assets/images/company/logo.png" alt="ZHIDI Tech Logo"><span>ZHIDI Tech</span></a><div class="navbar-links"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="products/index.html">Products</a><a href="industries/index.html">Industries</a><a href="support/index.html">Support</a><a href="blog/index.html">Blog</a><a href="contact.html" class="navbar-cta active">Get Quote</a></div><button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button></div></nav>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/images/company/logo.png" alt="ZHIDI Tech">
+        <span>ZHIDI Tech</span>
+      </a>
+      <div class="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products/index.html">Products</a>
+        <a href="industries/index.html">Industries</a>
+        <a href="support/index.html">Support</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="contact.html" class="active navbar-cta">Get Quote</a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
 
   <section class="page-header">
     <div class="container">
-      <div class="breadcrumb"><a href="index.html">Home</a><i data-lucide="chevron-right" style="width:14px;height:14px"></i><span>Contact Us</span></div>
-      <h1>Get in Touch</h1>
-      <p>Tell us your requirements — our engineers will respond within 24 hours</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i data-lucide="chevron-right"></i>
+        <span>Contact Us</span>
+      </div>
+      <h1>Get a Quote</h1>
+      <p>Tell us your requirements — our engineers respond within 24 hours</p>
     </div>
   </section>
 
@@ -26,61 +52,92 @@
     <div class="container">
       <div class="contact-grid">
         <!-- Form -->
-        <div class="fade-in">
-          <h2 style="font-size:1.5rem;font-weight:800;color:var(--color-primary);margin-bottom:24px">Send an Inquiry</h2>
-          <form id="contactForm" action="https://formspree.io/f/placeholder" method="POST">
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
-              <div class="form-group"><label for="name">Full Name *</label><input type="text" id="name" name="name" required placeholder="John Smith"></div>
-              <div class="form-group"><label for="email">Email Address *</label><input type="email" id="email" name="email" required placeholder="john@company.com"></div>
-            </div>
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
-              <div class="form-group">
-                <label for="country">Country *</label>
-                <select id="country" name="country" required>
-                  <option value="">Select your country</option>
-                  <option>United States</option><option>Germany</option><option>South Korea</option><option>Japan</option><option>India</option><option>Vietnam</option><option>Thailand</option><option>Turkey</option><option>Brazil</option><option>United Arab Emirates</option><option>United Kingdom</option><option>France</option><option>Other</option>
-                </select>
-              </div>
-              <div class="form-group"><label for="phone">Phone / WhatsApp</label><input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900"></div>
+        <div class="anim-fade-up">
+          <h2 style="font-size:1.5rem;margin-bottom:6px">Send Us a Message</h2>
+          <p style="margin-bottom:32px">Fill out the form below and we'll get back to you with a detailed quotation.</p>
+
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required>
             </div>
             <div class="form-group">
-              <label for="product">Product Interest</label>
-              <select id="product" name="product">
-                <option value="">Select a product</option>
-                <option>Planetary Vacuum Mixer</option><option>Planetary Ball Mill</option><option>Ink Mixer / Rolling Machine</option><option>Stencil Inspection Machine</option><option>Mealworm Screening Machine</option><option>Detection Light Table</option><option>Custom Solution</option>
+              <label for="company">Company *</label>
+              <input type="text" id="company" name="company" placeholder="Your company name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900">
+            </div>
+            <div class="form-group">
+              <label for="product">Product Interest *</label>
+              <select id="product" name="product" required>
+                <option value="">Select a product...</option>
+                <option value="planetary-vacuum-mixer">Planetary Centrifugal Vacuum Mixer</option>
+                <option value="double-planetary-mixer">Double Planetary Mixer</option>
+                <option value="planetary-ball-mill">Planetary Ball Mill</option>
+                <option value="ink-mixer">Ink Mixer & Rolling Machine</option>
+                <option value="screening-machine">Multi-Purpose Screening Machine</option>
+                <option value="paint-rolling">Paint Rolling & Aging Machine</option>
+                <option value="screen-dryer">Screen Frame Dryer</option>
+                <option value="other">Other / Custom Request</option>
               </select>
             </div>
-            <div class="form-group"><label for="message">Your Message *</label><textarea id="message" name="message" required placeholder="Please describe your requirements: material type, viscosity, batch size, application, etc."></textarea></div>
-            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
-              <i data-lucide="send" style="width:18px;height:18px"></i>
-              Send Inquiry
+            <div class="form-group">
+              <label for="message">Your Requirements</label>
+              <textarea id="message" name="message" placeholder="Tell us about your material, batch size, budget, and any special requirements..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%">
+              <i data-lucide="send"></i>
+              Submit Inquiry
             </button>
           </form>
         </div>
 
         <!-- Contact Info -->
-        <div class="fade-in">
-          <h2 style="font-size:1.5rem;font-weight:800;color:var(--color-primary);margin-bottom:24px">Contact Information</h2>
+        <div class="anim-fade-up" data-stagger="2">
+          <h2 style="font-size:1.5rem;margin-bottom:6px">Contact Information</h2>
+          <p style="margin-bottom:32px">Prefer to reach us directly? Choose your preferred channel below.</p>
 
-          <div style="display:flex;flex-direction:column;gap:20px">
-            <div style="background:var(--color-bg-alt);border-radius:12px;padding:24px;display:flex;gap:16px;align-items:start">
-              <div style="width:48px;height:48px;background:rgba(244,121,32,0.1);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0"><i data-lucide="mail" style="width:22px;height:22px;color:var(--color-accent)"></i></div>
-              <div><h3 style="font-weight:700;font-size:0.938rem;margin-bottom:4px">Email</h3><a href="mailto:sales@zhiditech.com" style="color:var(--color-accent);font-size:0.875rem">sales@zhiditech.com</a><p style="font-size:0.813rem;color:var(--color-text-light);margin-top:4px">Response within 24 hours</p></div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i data-lucide="mail"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:sales@zhiditech.com">sales@zhiditech.com</a>
             </div>
-
-            <div style="background:var(--color-bg-alt);border-radius:12px;padding:24px;display:flex;gap:16px;align-items:start">
-              <div style="width:48px;height:48px;background:rgba(37,211,102,0.1);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0"><i data-lucide="message-circle" style="width:22px;height:22px;color:#25d366"></i></div>
-              <div><h3 style="font-weight:700;font-size:0.938rem;margin-bottom:4px">WhatsApp</h3><a href="https://wa.me/8613800000000" target="_blank" style="color:var(--color-accent);font-size:0.875rem">+86 138-0000-0000</a><p style="font-size:0.813rem;color:var(--color-text-light);margin-top:4px">Mon-Sat 9:00-18:00 (GMT+8)</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i data-lucide="message-circle"></i></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/8613800000000" target="_blank">+86 138 0000 0000</a>
+              <p style="font-size:12px;margin-top:2px">Fastest response — reply within 1 hour</p>
             </div>
-
-            <div style="background:var(--color-bg-alt);border-radius:12px;padding:24px;display:flex;gap:16px;align-items:start">
-              <div style="width:48px;height:48px;background:rgba(244,121,32,0.1);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0"><i data-lucide="shopping-bag" style="width:22px;height:22px;color:var(--color-accent)"></i></div>
-              <div><h3 style="font-weight:700;font-size:0.938rem;margin-bottom:4px">Alibaba Store</h3><a href="https://szzhidi.en.alibaba.com" target="_blank" style="color:var(--color-accent);font-size:0.875rem">szzhidi.en.alibaba.com</a><p style="font-size:0.813rem;color:var(--color-text-light);margin-top:4px">Trade Assurance orders available</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i data-lucide="map-pin"></i></div>
+            <div>
+              <h4>Factory Address</h4>
+              <p>406-1, Block B, Zhongbaotong Industrial Park, No. 294 Longnan Road, Baolong Street, Longgang District, Shenzhen, Guangdong, China</p>
             </div>
-
-            <div style="background:var(--color-bg-alt);border-radius:12px;padding:24px;display:flex;gap:16px;align-items:start">
-              <div style="width:48px;height:48px;background:rgba(244,121,32,0.1);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0"><i data-lucide="map-pin" style="width:22px;height:22px;color:var(--color-accent)"></i></div>
-              <div><h3 style="font-weight:700;font-size:0.938rem;margin-bottom:4px">Factory Address</h3><p style="font-size:0.875rem;color:var(--color-text-light);line-height:1.6">406-1, Block B, Zhongbaotong Industrial Park, No. 294, Longnan Road, Baolong Street, Longgang District, Shenzhen, Guangdong, China</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i data-lucide="anchor"></i></div>
+            <div>
+              <h4>Shipping Port</h4>
+              <p>Yantian Port, Shenzhen — serving global FOB/CIF/EXW shipments</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i data-lucide="shopping-bag"></i></div>
+            <div>
+              <h4>Alibaba Store</h4>
+              <a href="https://szzhidi.en.alibaba.com" target="_blank">szzhidi.en.alibaba.com</a>
+              <p style="font-size:12px;margin-top:2px">Verified Gold Plus Supplier with Trade Assurance</p>
             </div>
           </div>
         </div>
@@ -88,9 +145,56 @@
     </div>
   </section>
 
-  <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><img src="assets/images/company/logo.png" alt="ZHIDI Tech" style="filter:brightness(0) invert(1)"><p>Shenzhen Zhidi Technology Co., Ltd. — Professional manufacturer of industrial mixing, grinding, and processing equipment.</p></div><div><h4>Products</h4><ul><li><a href="products/planetary-vacuum-mixer.html">Planetary Vacuum Mixer</a></li><li><a href="products/scraping-grinding-machine.html">Planetary Ball Mill</a></li><li><a href="products/mixer-machine.html">Ink Mixer / Rolling Machine</a></li><li><a href="products/screen-frame-dryer.html">Stencil Inspection Machine</a></li><li><a href="products/screening-machine.html">Mealworm Screening Machine</a></li></ul></div><div><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="industries/index.html">Industries</a></li><li><a href="support/index.html">Technical Support</a></li><li><a href="contact.html">Contact Us</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="mailto:sales@zhiditech.com">sales@zhiditech.com</a></li><li><a href="https://wa.me/8613800000000" target="_blank">WhatsApp</a></li><li><a href="https://szzhidi.en.alibaba.com" target="_blank">Alibaba Store</a></li></ul></div></div><div class="footer-bottom"><span>© 2025 Shenzhen Zhidi Technology Co., Ltd. All rights reserved.</span><div class="footer-social"><a href="#" aria-label="LinkedIn"><i data-lucide="linkedin" style="width:20px;height:20px"></i></a><a href="#" aria-label="YouTube"><i data-lucide="youtube" style="width:20px;height:20px"></i></a></div></div></div></footer>
-  <a href="https://wa.me/8613800000000" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp"><i data-lucide="message-circle" style="width:28px;height:28px"></i></a>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/company/logo.png" alt="ZHIDI Tech">
+          <p>Shenzhen Zhidi Technology Co., Ltd. — Professional manufacturer of industrial mixing, grinding, and processing equipment.</p>
+        </div>
+        <div>
+          <h4>Products</h4>
+          <ul>
+            <li><a href="products/planetary-vacuum-mixer.html">Planetary Vacuum Mixer</a></li>
+            <li><a href="products/double-planetary-mixer.html">Double Planetary Mixer</a></li>
+            <li><a href="products/scraping-grinding-machine.html">Ball Mill</a></li>
+            <li><a href="products/mixer-machine.html">Ink Mixer</a></li>
+            <li><a href="products/screening-machine.html">Screening Machine</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="industries/index.html">Industries</a></li>
+            <li><a href="support/index.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:sales@zhiditech.com">sales@zhiditech.com</a></li>
+            <li><a href="https://wa.me/8613800000000">WhatsApp</a></li>
+            <li><a href="https://szzhidi.en.alibaba.com">Alibaba Store</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Shenzhen Zhidi Technology Co., Ltd.</span>
+        <div class="footer-social">
+          <a href="#"><i data-lucide="linkedin"></i></a>
+          <a href="#"><i data-lucide="youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/8613800000000" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i data-lucide="message-circle"></i>
+  </a>
+
   <script src="assets/js/main.js"></script>
-  <script>lucide.createIcons();handleFormSubmit('contactForm','Thank you! Our team will contact you within 24 hours.');</script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>

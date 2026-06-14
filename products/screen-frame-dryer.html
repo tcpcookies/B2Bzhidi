@@ -53,15 +53,11 @@
         <!-- Gallery -->
         <div class="product-gallery fade-in">
           <div class="product-gallery-main">
-            <div style="width:100%;aspect-ratio:4/3;background:#f0fdf4;border-radius:12px;display:flex;align-items:center;justify-content:center">
-              <div style="text-align:center">
-                <div style="width:80px;height:80px;background:rgba(34,197,94,0.15);border-radius:20px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px">
-                  <i data-lucide="scan" style="width:40px;height:40px;color:#22c55e"></i>
-                </div>
-                <p style="font-size:0.875rem;color:#16a34a;font-weight:600">Stencil Inspection Machine</p>
-                <p style="font-size:0.75rem;color:#6b7280;margin-top:4px">Product image coming soon</p>
-              </div>
-            </div>
+            <img id="mainImage" src="../assets/images/products/1601492514842_00.png" alt="Screen Frame Dryer">
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="../assets/images/products/1601492514842_00.png" alt="Main View" class="active" onclick="document.getElementById('mainImage').src=this.src;document.querySelectorAll('.product-gallery-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+            <img src="../assets/images/products/1601492544289_00.jpg" alt="Side View" onclick="document.getElementById('mainImage').src=this.src;document.querySelectorAll('.product-gallery-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
           </div>
         </div>
 

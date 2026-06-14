@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Industries — ZHIDI Tech | Application Areas</title>
-  <meta name="description" content="ZHIDI industrial mixing and grinding solutions for lithium battery, electronic ceramics, adhesives, coatings, cosmetics, pharmaceutical, and laboratory applications.">
+  <title>Industries — Battery, Ceramics, Coatings & More | ZHIDI Tech</title>
+  <meta name="description" content="ZHIDI Tech mixing and grinding equipment serves 6 core industries: lithium battery, electronic ceramics, coatings & inks, adhesives, cosmetics & pharma, and lab research.">
   <link rel="canonical" href="https://zhiditech.com/industries/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="../assets/css/style.css">
@@ -13,11 +17,10 @@
 </head>
 <body>
 
-  <!-- Navbar -->
   <nav class="navbar">
     <div class="container">
       <a href="../index.html" class="navbar-logo">
-        <img src="../assets/images/company/logo.png" alt="ZHIDI Tech Logo">
+        <img src="../assets/images/company/logo.png" alt="ZHIDI Tech">
         <span>ZHIDI Tech</span>
       </a>
       <div class="navbar-links">
@@ -33,99 +36,80 @@
     </div>
   </nav>
 
-  <!-- Page Header -->
-  <section class="page-header" style="padding:100px 0 40px">
+  <section class="page-header">
     <div class="container">
       <div class="breadcrumb">
         <a href="../index.html">Home</a>
-        <i data-lucide="chevron-right" style="width:14px;height:14px"></i>
+        <i data-lucide="chevron-right"></i>
         <span>Industries</span>
       </div>
+      <h1>Industries We Serve</h1>
+      <p>Our equipment powers innovation across 6 core manufacturing sectors worldwide</p>
     </div>
   </section>
 
-  <!-- Industries Overview -->
   <section class="section">
     <div class="container">
-      <div class="section-header fade-in">
-        <span class="section-label">Application Areas</span>
-        <h2>Industries We Serve</h2>
-        <p>Specialized mixing, grinding, and processing solutions tailored to your industry's unique requirements</p>
-      </div>
-
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px" class="fade-in">
-        <a href="lithium-battery.html" class="industry-card" style="text-decoration:none">
-          <div class="industry-card-icon"><i data-lucide="battery-charging" style="width:32px;height:32px"></i></div>
-          <h3 style="font-weight:700;margin-top:16px">Lithium Battery</h3>
-          <p style="font-size:0.875rem;color:var(--color-text-light);margin-top:8px">Electrode slurry mixing, electrolyte preparation, and solid-state battery R&D. Vacuum defoaming for bubble-free electrode coatings.</p>
-          <span style="display:inline-flex;align-items:center;gap:4px;color:var(--color-accent);font-size:0.813rem;font-weight:600;margin-top:12px">Learn More <i data-lucide="arrow-right" style="width:14px;height:14px"></i></span>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:28px">
+        <a href="lithium-battery.html" class="why-us-card anim-fade-up" data-stagger="1">
+          <div class="why-us-icon"><i data-lucide="battery-charging"></i></div>
+          <h3>Lithium Battery</h3>
+          <p>Electrode slurry mixing, electrolyte preparation, and separator coating. Our vacuum mixers deliver the homogeneity and degassing precision required for EV, consumer electronics, and energy storage cells.</p>
         </a>
-
-        <a href="electronic-ceramics.html" class="industry-card" style="text-decoration:none">
-          <div class="industry-card-icon"><i data-lucide="cpu" style="width:32px;height:32px"></i></div>
-          <h3 style="font-weight:700;margin-top:16px">Electronic Ceramics</h3>
-          <p style="font-size:0.875rem;color:var(--color-text-light);margin-top:8px">MLCC slurry, LTCC paste, and ceramic feedstock preparation. Precision mixing for electronic component manufacturing.</p>
-          <span style="display:inline-flex;align-items:center;gap:4px;color:var(--color-accent);font-size:0.813rem;font-weight:600;margin-top:12px">Learn More <i data-lucide="arrow-right" style="width:14px;height:14px"></i></span>
+        <a href="electronic-ceramics.html" class="why-us-card anim-fade-up" data-stagger="2">
+          <div class="why-us-icon"><i data-lucide="cpu"></i></div>
+          <h3>Electronic Ceramics</h3>
+          <p>MLCC paste mixing, ceramic powder dispersion, and substrate coating. Ceramic chamber options available for metal-free processing — critical for semiconductor-grade materials.</p>
         </a>
-
-        <a href="adhesives-sealants.html" class="industry-card" style="text-decoration:none">
-          <div class="industry-card-icon"><i data-lucide="droplets" style="width:32px;height:32px"></i></div>
-          <h3 style="font-weight:700;margin-top:16px">Adhesives & Sealants</h3>
-          <p style="font-size:0.875rem;color:var(--color-text-light);margin-top:8px">Epoxy, silicone, and thermal grease compounding. Bubble-free mixing under vacuum for electronics and automotive applications.</p>
-          <span style="display:inline-flex;align-items:center;gap:4px;color:var(--color-accent);font-size:0.813rem;font-weight:600;margin-top:12px">Learn More <i data-lucide="arrow-right" style="width:14px;height:14px"></i></span>
+        <a href="coatings-inks.html" class="why-us-card anim-fade-up" data-stagger="3">
+          <div class="why-us-icon"><i data-lucide="paintbrush"></i></div>
+          <h3>Coatings & Inks</h3>
+          <p>Pigment dispersion, ink homogenization, and coating formulation. Our mixers handle a wide viscosity range — from water-based inks to heavy UV-curable coatings.</p>
         </a>
-
-        <a href="coatings-inks.html" class="industry-card" style="text-decoration:none">
-          <div class="industry-card-icon"><i data-lucide="paintbrush" style="width:32px;height:32px"></i></div>
-          <h3 style="font-weight:700;margin-top:16px">Coatings & Inks</h3>
-          <p style="font-size:0.875rem;color:var(--color-text-light);margin-top:8px">High-viscosity coatings, UV inks dispersion, and pigment grinding. Precise particle size reduction and uniform color development.</p>
-          <span style="display:inline-flex;align-items:center;gap:4px;color:var(--color-accent);font-size:0.813rem;font-weight:600;margin-top:12px">Learn More <i data-lucide="arrow-right" style="width:14px;height:14px"></i></span>
+        <a href="adhesives-sealants.html" class="why-us-card anim-fade-up" data-stagger="4">
+          <div class="why-us-icon"><i data-lucide="droplets"></i></div>
+          <h3>Adhesives & Sealants</h3>
+          <p>Silicone sealants, epoxy adhesives, polyurethane, and solder paste. Heavy-duty double planetary mixers handle extreme viscosities for construction and electronics assembly.</p>
         </a>
-
-        <a href="cosmetics-pharma.html" class="industry-card" style="text-decoration:none">
-          <div class="industry-card-icon"><i data-lucide="flask-conical" style="width:32px;height:32px"></i></div>
-          <h3 style="font-weight:700;margin-top:16px">Cosmetics & Pharma</h3>
-          <p style="font-size:0.875rem;color:var(--color-text-light);margin-top:8px">GMP-compliant mixing for creams, ointments, gels, and toothpaste. SUS316L contact surfaces, CIP design, and validation support.</p>
-          <span style="display:inline-flex;align-items:center;gap:4px;color:var(--color-accent);font-size:0.813rem;font-weight:600;margin-top:12px">Learn More <i data-lucide="arrow-right" style="width:14px;height:14px"></i></span>
+        <a href="cosmetics-pharma.html" class="why-us-card anim-fade-up" data-stagger="5">
+          <div class="why-us-icon"><i data-lucide="flask-conical"></i></div>
+          <h3>Cosmetics & Pharma</h3>
+          <p>Creams, lotions, ointments, and API compounding. Lab-scale to production-scale equipment with stainless steel chambers and cGMP-compatible processing.</p>
         </a>
-
-        <a href="laboratory-research.html" class="industry-card" style="text-decoration:none">
-          <div class="industry-card-icon"><i data-lucide="microscope" style="width:32px;height:32px"></i></div>
-          <h3 style="font-weight:700;margin-top:16px">Laboratory & Research</h3>
-          <p style="font-size:0.875rem;color:var(--color-text-light);margin-top:8px">Bench-top planetary mixers for new material R&D, formulation testing, and small-batch prototyping. 5L lab models available.</p>
-          <span style="display:inline-flex;align-items:center;gap:4px;color:var(--color-accent);font-size:0.813rem;font-weight:600;margin-top:12px">Learn More <i data-lucide="arrow-right" style="width:14px;height:14px"></i></span>
+        <a href="laboratory-research.html" class="why-us-card anim-fade-up" data-stagger="6">
+          <div class="why-us-icon"><i data-lucide="microscope"></i></div>
+          <h3>Lab & Research</h3>
+          <p>Planetary ball mills and small-batch vacuum mixers for materials science, nanomaterial synthesis, and pharmaceutical R&D. Compact, programmable, and reproducible.</p>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
   <section class="cta-section">
-    <div class="container fade-in">
-      <h2>Don't See Your Industry?</h2>
-      <p>Our equipment handles a wide range of materials and viscosities. Contact us to discuss your specific application.</p>
-      <a href="../contact.html" class="btn btn-white">
-        <i data-lucide="send" style="width:18px;height:18px"></i>
-        Contact Us
+    <div class="container anim-fade-up">
+      <h2>Working on a different application?</h2>
+      <p>Our engineering team can customize solutions for your specific industry. Reach out with your process requirements.</p>
+      <a href="../contact.html" class="btn btn-white btn-lg">
+        <i data-lucide="send"></i>
+        Talk to an Engineer
       </a>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="../assets/images/company/logo.png" alt="ZHIDI Tech" style="filter:brightness(0) invert(1)">
+          <img src="../assets/images/company/logo.png" alt="ZHIDI Tech">
           <p>Shenzhen Zhidi Technology Co., Ltd. — Professional manufacturer of industrial mixing, grinding, and processing equipment.</p>
         </div>
         <div>
           <h4>Products</h4>
           <ul>
             <li><a href="../products/planetary-vacuum-mixer.html">Planetary Vacuum Mixer</a></li>
-            <li><a href="../products/scraping-grinding-machine.html">Grinding Machine</a></li>
-            <li><a href="../products/mixer-machine.html">Mixer Machine</a></li>
-            <li><a href="../products/screen-frame-dryer.html">Screen Frame Dryer</a></li>
+            <li><a href="../products/double-planetary-mixer.html">Double Planetary Mixer</a></li>
+            <li><a href="../products/scraping-grinding-machine.html">Ball Mill</a></li>
+            <li><a href="../products/mixer-machine.html">Ink Mixer</a></li>
             <li><a href="../products/screening-machine.html">Screening Machine</a></li>
           </ul>
         </div>
@@ -134,31 +118,31 @@
           <ul>
             <li><a href="../about.html">About Us</a></li>
             <li><a href="index.html">Industries</a></li>
-            <li><a href="../support/index.html">Technical Support</a></li>
-            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../support/index.html">Support</a></li>
+            <li><a href="../contact.html">Contact</a></li>
           </ul>
         </div>
         <div>
           <h4>Contact</h4>
           <ul>
             <li><a href="mailto:sales@zhiditech.com">sales@zhiditech.com</a></li>
-            <li><a href="https://wa.me/8613800000000" target="_blank">WhatsApp</a></li>
-            <li><a href="https://szzhidi.en.alibaba.com" target="_blank">Alibaba Store</a></li>
+            <li><a href="https://wa.me/8613800000000">WhatsApp</a></li>
+            <li><a href="https://szzhidi.en.alibaba.com">Alibaba Store</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2025 Shenzhen Zhidi Technology Co., Ltd. All rights reserved.</span>
+        <span>&copy; 2026 Shenzhen Zhidi Technology Co., Ltd.</span>
         <div class="footer-social">
-          <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin" style="width:20px;height:20px"></i></a>
-          <a href="#" aria-label="YouTube"><i data-lucide="youtube" style="width:20px;height:20px"></i></a>
+          <a href="#"><i data-lucide="linkedin"></i></a>
+          <a href="#"><i data-lucide="youtube"></i></a>
         </div>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/8613800000000" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
-    <i data-lucide="message-circle" style="width:28px;height:28px"></i>
+  <a href="https://wa.me/8613800000000" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i data-lucide="message-circle"></i>
   </a>
 
   <script src="../assets/js/main.js"></script>
