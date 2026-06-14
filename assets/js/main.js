@@ -1,20 +1,24 @@
-// ===== ZHIDI Tech — Main JavaScript =====
+// ===== ZHIDI Tech — Main JavaScript (v2.0) =====
 
 document.addEventListener('DOMContentLoaded', () => {
   initNavbar();
   initMobileMenu();
   initScrollAnimations();
   initFAQ();
+  initTrustBarCounter();
 });
 
-// Navbar scroll effect
+// Navbar scroll effect — shrink on scroll
 function initNavbar() {
   const navbar = document.querySelector('.navbar');
   if (!navbar) return;
 
+  let lastScroll = 0;
   window.addEventListener('scroll', () => {
-    navbar.classList.toggle('scrolled', window.scrollY > 10);
-  });
+    const scrollY = window.scrollY;
+    navbar.classList.toggle('scrolled', scrollY > 10);
+    lastScroll = scrollY;
+  }, { passive: true });
 }
 
 // Mobile menu toggle
@@ -37,9 +41,9 @@ function initMobileMenu() {
   });
 }
 
-// Scroll animations (fade-in)
+// Scroll animations — fade-in, slide-up, slide-left
 function initScrollAnimations() {
-  const elements = document.querySelectorAll('.fade-in');
+  const elements = document.querySelectorAll('.fade-in, .slide-up, .slide-left');
   if (!elements.length) return;
 
   const observer = new IntersectionObserver((entries) => {
@@ -49,9 +53,54 @@ function initScrollAnimations() {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
 
   elements.forEach(el => observer.observe(el));
+}
+
+// Trust bar number counter animation
+function initTrustBarCounter() {
+  const numbers = document.querySelectorAll('.trust-item-number');
+  if (!numbers.length) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const text = el.textContent.trim();
+        // Extract number and suffix (e.g. "73+" → 73, "+")
+        const match = text.match(/(\d+)(.*)/);
+        if (match) {
+          const target = parseInt(match[1], 10);
+          const suffix = match[2] || '';
+          animateCounter(el, target, suffix);
+        }
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  numbers.forEach(el => observer.observe(el));
+}
+
+function animateCounter(el, target, suffix, duration = 1500) {
+  const start = 0;
+  const startTime = performance.now();
+
+  function update(currentTime) {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    // Ease-out cubic
+    const eased = 1 - Math.pow(1 - progress, 3);
+    const current = Math.round(start + (target - start) * eased);
+    el.textContent = current + suffix;
+
+    if (progress < 1) {
+      requestAnimationFrame(update);
+    }
+  }
+
+  requestAnimationFrame(update);
 }
 
 // FAQ accordion
@@ -79,8 +128,8 @@ function handleFormSubmit(formId, successMsg) {
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const btn = form.querySelector('button[type="submit"]');
-    const originalText = btn.textContent;
-    btn.textContent = 'Sending...';
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<span>Sending...</span>';
     btn.disabled = true;
 
     try {
@@ -92,14 +141,19 @@ function handleFormSubmit(formId, successMsg) {
 
       if (response.ok) {
         form.reset();
-        alert(successMsg || 'Thank you! We will contact you shortly.');
+        // Show success message inline
+        const successDiv = document.createElement('div');
+        successDiv.style.cssText = 'background:#10b981;color:#fff;padding:16px 24px;border-radius:10px;margin-top:16px;font-weight:600;text-align:center;';
+        successDiv.textContent = successMsg || 'Thank you! We will contact you shortly.';
+        form.parentNode.insertBefore(successDiv, form.nextSibling);
+        setTimeout(() => successDiv.remove(), 5000);
       } else {
         throw new Error('Form submission failed');
       }
     } catch (err) {
       alert('Something went wrong. Please try again or contact us directly.');
     } finally {
-      btn.textContent = originalText;
+      btn.innerHTML = originalText;
       btn.disabled = false;
     }
   });

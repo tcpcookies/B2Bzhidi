@@ -3,17 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZHIDI Tech — Industrial Mixing & Grinding Solutions | Manufacturer Since 2015</title>
-  <meta name="description" content="Shenzhen Zhidi Technology Co., Ltd. — Gold Plus Supplier of planetary vacuum stirring defoaming machines, automatic scraping grinding machines, mixer machines, screen frame dryers & screening machines. Factory audited, Trade Assurance.">
-  <meta name="keywords" content="planetary vacuum mixer, defoaming machine, grinding machine, screen frame dryer, mixing equipment manufacturer, ZHIDI Tech">
+  <title>ZHIDI Tech — Industrial Mixing & Grinding Solutions | Factory Direct Since 2019</title>
+  <meta name="description" content="Shenzhen Zhidi Technology Co., Ltd. — Gold Plus Supplier of planetary vacuum stirring defoaming machines, double planetary mixers, grinding machines & screening machines. Factory audited, Trade Assurance.">
+  <meta name="keywords" content="planetary vacuum mixer, defoaming machine, double planetary mixer, grinding machine, mixing equipment manufacturer, ZHIDI Tech">
   <link rel="canonical" href="https://zhiditech.com/">
 
   <!-- Open Graph -->
   <meta property="og:title" content="ZHIDI Tech — Industrial Mixing & Grinding Solutions">
-  <meta property="og:description" content="Gold Plus Supplier of planetary vacuum stirring defoaming machines, grinding machines & more. Factory audited with Trade Assurance.">
+  <meta property="og:description" content="Gold Plus Supplier of planetary vacuum stirring defoaming machines, double planetary mixers & more. Factory audited with Trade Assurance.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://zhiditech.com/">
   <meta property="og:image" content="https://zhiditech.com/assets/images/company/logo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -52,12 +57,22 @@
   <section class="hero">
     <div class="container">
       <div class="hero-content">
-        <div class="hero-badge">
-          <i data-lucide="shield-check" style="width:16px;height:16px"></i>
-          Gold Plus Supplier · Factory Audited
+        <div class="hero-trust-badges">
+          <div class="hero-trust-badge">
+            <i data-lucide="award" style="width:14px;height:14px"></i>
+            Gold Plus Supplier
+          </div>
+          <div class="hero-trust-badge">
+            <i data-lucide="building-2" style="width:14px;height:14px"></i>
+            Factory Audited
+          </div>
+          <div class="hero-trust-badge">
+            <i data-lucide="shield-check" style="width:14px;height:14px"></i>
+            Trade Assurance
+          </div>
         </div>
         <h1>Your Trusted Partner for <span>Industrial Mixing</span> & Grinding Solutions</h1>
-        <p>From lab-scale to mass production — planetary vacuum stirring defoaming machines, grinding machines, and precision equipment for lithium battery, ceramics, coatings, and more.</p>
+        <p>From lab-scale to mass production — planetary vacuum stirring defoaming machines, double planetary mixers, and precision equipment for lithium battery, ceramics, coatings, and more.</p>
         <div class="hero-buttons">
           <a href="products/index.html" class="btn btn-primary">
             <i data-lucide="package" style="width:18px;height:18px"></i>
@@ -72,33 +87,41 @@
     </div>
   </section>
 
-  <!-- ===== Trust Bar ===== -->
+  <!-- ===== Trust Bar (Data) ===== -->
   <section class="trust-bar">
     <div class="container">
-      <div class="trust-item">
-        <i data-lucide="award" style="width:20px;height:20px"></i>
-        <span>Gold Plus Supplier</span>
+      <div class="trust-item slide-up stagger-1">
+        <div class="trust-item-icon">
+          <i data-lucide="package" style="width:24px;height:24px"></i>
+        </div>
+        <div class="trust-item-number">73+</div>
+        <div class="trust-item-label">Products Available</div>
       </div>
-      <div class="trust-item">
-        <i data-lucide="building-2" style="width:20px;height:20px"></i>
-        <span>Factory Audited</span>
+      <div class="trust-item slide-up stagger-2">
+        <div class="trust-item-icon">
+          <i data-lucide="calendar" style="width:24px;height:24px"></i>
+        </div>
+        <div class="trust-item-number">7+</div>
+        <div class="trust-item-label">Years Experience</div>
       </div>
-      <div class="trust-item">
-        <i data-lucide="shield-check" style="width:20px;height:20px"></i>
-        <span>Trade Assurance</span>
+      <div class="trust-item slide-up stagger-3">
+        <div class="trust-item-icon">
+          <i data-lucide="globe" style="width:24px;height:24px"></i>
+        </div>
+        <div class="trust-item-number">10+</div>
+        <div class="trust-item-label">Countries Served</div>
       </div>
-      <div class="trust-item">
-        <i data-lucide="package" style="width:20px;height:20px"></i>
-        <span>199+ Products</span>
-      </div>
-      <div class="trust-item">
-        <i data-lucide="truck" style="width:20px;height:20px"></i>
-        <span>Fast Delivery in 5 Days</span>
+      <div class="trust-item slide-up stagger-4">
+        <div class="trust-item-icon">
+          <i data-lucide="factory" style="width:24px;height:24px"></i>
+        </div>
+        <div class="trust-item-number">2</div>
+        <div class="trust-item-label">Production Lines</div>
       </div>
     </div>
   </section>
 
-  <!-- ===== Products ===== -->
+  <!-- ===== Product Categories ===== -->
   <section class="section" id="products">
     <div class="container">
       <div class="section-header fade-in">
@@ -107,112 +130,161 @@
         <p>From vacuum mixing to precision grinding — one-stop equipment for your production line</p>
       </div>
 
-      <div class="product-grid">
-        <!-- Product 1: Planetary Centrifugal Vacuum Mixer (Core) -->
-        <div class="product-card fade-in">
-          <div class="product-card-img">
+      <div class="product-category-grid">
+        <!-- 1. Planetary Centrifugal Vacuum Mixer -->
+        <a href="products/planetary-vacuum-mixer.html" class="product-category-card slide-up stagger-1">
+          <div class="product-category-card-img">
             <img src="assets/images/products/1601564575134_00.png" alt="Planetary Centrifugal Vacuum Mixer">
           </div>
-          <div class="product-card-body">
+          <div class="product-category-card-body">
             <h3>Planetary Centrifugal Vacuum Mixer</h3>
-            <p>High-speed planetary centrifugal mixing with vacuum defoaming. 500ml to 50L+. For battery slurry, ceramics, epoxy, silicone, LED phosphor. From <strong>$5,660</strong>.</p>
-            <a href="products/planetary-vacuum-mixer.html" class="product-card-link">
-              Learn More <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
-            </a>
+            <p>High-speed planetary centrifugal mixing with vacuum defoaming for battery slurry, ceramics, epoxy, LED phosphor.</p>
+            <div class="card-meta">
+              <div class="card-meta-item"><strong>36</strong> models</div>
+              <div class="card-meta-item">From <strong>$5,660</strong></div>
+            </div>
+            <span class="product-category-card-link">
+              View Details <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
+            </span>
           </div>
-        </div>
+        </a>
 
-        <!-- Product 2: Double Planetary Mixer -->
-        <div class="product-card fade-in">
-          <div class="product-card-img" style="background:linear-gradient(135deg,#e0e7ff,#c7d2fe)">
+        <!-- 2. Double Planetary Mixer -->
+        <a href="products/double-planetary-mixer.html" class="product-category-card slide-up stagger-2">
+          <div class="product-category-card-img">
             <img src="assets/images/products/1601449517132_00.png" alt="Double Planetary Mixer">
           </div>
-          <div class="product-card-body">
+          <div class="product-category-card-body">
             <h3>Double Planetary Mixer</h3>
-            <p>Heavy-duty double planetary mixing for high-viscosity materials. 1L to 100L. For silicone sealants, epoxy, polyurethane, solder paste. From <strong>$6,000</strong>.</p>
-            <a href="products/double-planetary-mixer.html" class="product-card-link">
-              Learn More <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
-            </a>
+            <p>Heavy-duty double planetary mixing for high-viscosity materials — silicone sealants, epoxy, polyurethane, solder paste.</p>
+            <div class="card-meta">
+              <div class="card-meta-item"><strong>9</strong> models</div>
+              <div class="card-meta-item">From <strong>$6,000</strong></div>
+            </div>
+            <span class="product-category-card-link">
+              View Details <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
+            </span>
           </div>
-        </div>
+        </a>
 
-        <!-- Product 3: Planetary Ball Mill -->
-        <div class="product-card fade-in">
-          <div class="product-card-img" style="background:linear-gradient(135deg,#fef3c7,#fde68a)">
+        <!-- 3. Planetary Ball Mill -->
+        <a href="products/scraping-grinding-machine.html" class="product-category-card slide-up stagger-3">
+          <div class="product-category-card-img">
             <img src="assets/images/products/1601482481640_00.png" alt="Planetary Ball Mill">
           </div>
-          <div class="product-card-body">
+          <div class="product-category-card-body">
             <h3>Planetary Ball Mill</h3>
             <p>High-energy laboratory grinding for fine grinding, mixing, and mechanical alloying. For materials science and pharmaceutical R&D.</p>
-            <a href="products/scraping-grinding-machine.html" class="product-card-link">
-              Learn More <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
-            </a>
+            <div class="card-meta">
+              <div class="card-meta-item"><strong>1</strong> model</div>
+              <div class="card-meta-item">Inquire for price</div>
+            </div>
+            <span class="product-category-card-link">
+              View Details <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
+            </span>
           </div>
-        </div>
+        </a>
 
-        <!-- Product 4: Ink Mixer / Rolling Machine -->
-        <div class="product-card fade-in">
-          <div class="product-card-img" style="background:linear-gradient(135deg,#d1fae5,#a7f3d0)">
-            <img src="assets/images/products/1601582367568_00.png" alt="Ink Mixer">
+        <!-- 4. Ink Mixer / Rolling Machine -->
+        <a href="products/mixer-machine.html" class="product-category-card slide-up stagger-4">
+          <div class="product-category-card-img">
+            <img src="assets/images/products/1601582367568_00.png" alt="Ink Mixer / Rolling Machine">
           </div>
-          <div class="product-card-body">
+          <div class="product-category-card-body">
             <h3>Ink Mixer / Rolling Machine</h3>
-            <p>Variable-frequency ink mixing and paint rolling. 1-5L small mixers, offset printing color mixers, barrel rolling anti-sedimentation models.</p>
-            <a href="products/mixer-machine.html" class="product-card-link">
-              Learn More <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
-            </a>
+            <p>Variable-frequency ink mixing and paint rolling. Small mixers, offset printing color mixers, barrel rolling models.</p>
+            <div class="card-meta">
+              <div class="card-meta-item"><strong>8</strong> models</div>
+              <div class="card-meta-item">Inquire for price</div>
+            </div>
+            <span class="product-category-card-link">
+              View Details <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
+            </span>
           </div>
-        </div>
+        </a>
 
-        <!-- Product 5: Mealworm Screening Machine -->
-        <div class="product-card fade-in">
-          <div class="product-card-img" style="background:linear-gradient(135deg,#fce7f3,#fbcfe8)">
+        <!-- 5. Mealworm Screening Machine -->
+        <a href="products/screening-machine.html" class="product-category-card slide-up stagger-5">
+          <div class="product-category-card-img">
             <img src="assets/images/products/1601498700347_00.png" alt="Mealworm Screening Machine">
           </div>
-          <div class="product-card-body">
+          <div class="product-category-card-body">
             <h3>Mealworm Screening Machine</h3>
             <p>Multi-purpose mealworm sorting — separates pupae, dead worms, feces, grades by size. Stainless steel, dust-free design.</p>
-            <a href="products/screening-machine.html" class="product-card-link">
-              Learn More <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
-            </a>
+            <div class="card-meta">
+              <div class="card-meta-item"><strong>8</strong> models</div>
+              <div class="card-meta-item">Inquire for price</div>
+            </div>
+            <span class="product-category-card-link">
+              View Details <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
+            </span>
           </div>
-        </div>
-      </div>
+        </a>
 
-      <div style="text-align:center;margin-top:40px" class="fade-in">
-        <a href="products/index.html" class="btn btn-dark">
-          View All Products <i data-lucide="arrow-right" style="width:18px;height:18px"></i>
+        <!-- 6. Paint Rolling / Aging Machine -->
+        <a href="products/mixer-machine.html" class="product-category-card slide-up stagger-6">
+          <div class="product-category-card-img">
+            <img src="assets/images/products/1601487145098_00.png" alt="Paint Rolling / Aging Machine">
+          </div>
+          <div class="product-category-card-body">
+            <h3>Paint Rolling / Aging Machine</h3>
+            <p>Continuous rolling anti-sedimentation equipment for paint curing. Large barrel rollers for 20-40kg ink and paint barrels.</p>
+            <div class="card-meta">
+              <div class="card-meta-item"><strong>2</strong> models</div>
+              <div class="card-meta-item">Inquire for price</div>
+            </div>
+            <span class="product-category-card-link">
+              View Details <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
+            </span>
+          </div>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- ===== Stats ===== -->
-  <section class="section-dark">
+  <!-- ===== Core Product Showcase ===== -->
+  <section class="section section-alt">
     <div class="container">
-      <div class="stats-grid">
-        <div class="stat-item fade-in">
-          <div class="stat-number">73</div>
-          <div class="stat-label">Products Available</div>
+      <div class="section-header fade-in">
+        <span class="section-label">★ Core Product</span>
+        <h2>Planetary Centrifugal Vacuum Mixer</h2>
+        <p>Our flagship product line — 36 models from 500ml lab-scale to 50L+ production</p>
+      </div>
+
+      <div class="core-showcase fade-in">
+        <div class="core-showcase-gallery">
+          <div class="core-showcase-main">
+            <img id="showcaseMain" src="assets/images/products/1601559039570_00.png" alt="50L Planetary Centrifugal Vacuum Mixer">
+          </div>
+          <div class="core-showcase-thumbs">
+            <img src="assets/images/products/1601559039570_00.png" alt="50L Model" class="active" onclick="document.getElementById('showcaseMain').src=this.src;document.querySelectorAll('.core-showcase-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+            <img src="assets/images/products/1601564575134_00.png" alt="1L Model" onclick="document.getElementById('showcaseMain').src=this.src;document.querySelectorAll('.core-showcase-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+            <img src="assets/images/products/1601564496849_00.png" alt="5L Model" onclick="document.getElementById('showcaseMain').src=this.src;document.querySelectorAll('.core-showcase-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+            <img src="assets/images/products/1601562168246_00.png" alt="10L Model" onclick="document.getElementById('showcaseMain').src=this.src;document.querySelectorAll('.core-showcase-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+            <img src="assets/images/products/1601564617370_00.png" alt="50L Battery Model" onclick="document.getElementById('showcaseMain').src=this.src;document.querySelectorAll('.core-showcase-thumbs img').forEach(i=>i.classList.remove('active'));this.classList.add('active')">
+          </div>
         </div>
-        <div class="stat-item fade-in">
-          <div class="stat-number">7+</div>
-          <div class="stat-label">Years Experience</div>
-        </div>
-        <div class="stat-item fade-in">
-          <div class="stat-number">10+</div>
-          <div class="stat-label">Countries Served</div>
-        </div>
-        <div class="stat-item fade-in">
-          <div class="stat-number">99%</div>
-          <div class="stat-label">Customer Satisfaction</div>
+        <div class="core-showcase-info">
+          <p>The ZHIDI <strong>Planetary Centrifugal Vacuum Mixer</strong> combines high-speed planetary rotation with vacuum defoaming technology. The dual-axis design generates intense shear forces while the vacuum chamber removes air bubbles — producing homogeneous, bubble-free mixtures every time.</p>
+          <p style="margin-bottom:32px">Available from <strong>500ml lab-scale</strong> to <strong>50L+ production-scale</strong> with pricing from <strong>$5,660 to $60,000</strong>. Configurable for lithium battery slurry, ceramic pastes, epoxy resins, LED phosphor, and adhesive compounds.</p>
+
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <a href="products/planetary-vacuum-mixer.html" class="btn btn-primary">
+              <i data-lucide="file-text" style="width:18px;height:18px"></i>
+              View Full Specs
+            </a>
+            <a href="contact.html" class="btn btn-dark">
+              <i data-lucide="send" style="width:18px;height:18px"></i>
+              Request Quote
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ===== Industries ===== -->
-  <section class="section section-alt" id="industries">
+  <section class="section" id="industries">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Applications</span>
@@ -262,7 +334,7 @@
   </section>
 
   <!-- ===== Why Choose Us ===== -->
-  <section class="section" id="why-us">
+  <section class="section section-alt" id="why-us">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Why ZHIDI</span>
@@ -270,34 +342,27 @@
         <p>We're not just another trading company. We design, manufacture, and deliver.</p>
       </div>
 
-      <div class="product-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
-        <div class="industry-card fade-in" style="text-align:left;padding:32px">
-          <div class="industry-card-icon" style="margin:0 0 20px 0">
-            <i data-lucide="factory" style="width:28px;height:28px"></i>
+      <div class="why-us-grid">
+        <div class="why-us-card slide-up stagger-1">
+          <div class="why-us-icon">
+            <i data-lucide="building-2" style="width:28px;height:28px"></i>
           </div>
-          <h3 style="margin-bottom:8px">Own Factory in Huizhou</h3>
-          <p style="font-size:0.875rem;color:#6b7280">Not a trading company — we control every step from raw materials to finished product in our own facility.</p>
+          <h3>Factory Audited</h3>
+          <p>On-site factory verification by Alibaba.com. Not a trading company — we control every step from raw materials to finished product.</p>
         </div>
-        <div class="industry-card fade-in" style="text-align:left;padding:32px">
-          <div class="industry-card-icon" style="margin:0 0 20px 0">
+        <div class="why-us-card slide-up stagger-2">
+          <div class="why-us-icon">
             <i data-lucide="shield-check" style="width:28px;height:28px"></i>
           </div>
-          <h3 style="margin-bottom:8px">Alibaba Audited & Verified</h3>
-          <p style="font-size:0.875rem;color:#6b7280">Gold Plus Supplier with on-site factory inspection by third-party auditors. Trade Assurance for 100% order protection.</p>
+          <h3>Trade Assurance</h3>
+          <p>100% payment protection for product quality and on-time shipment. Gold Plus Supplier with comprehensive product coverage.</p>
         </div>
-        <div class="industry-card fade-in" style="text-align:left;padding:32px">
-          <div class="industry-card-icon" style="margin:0 0 20px 0">
-            <i data-lucide="settings" style="width:28px;height:28px"></i>
+        <div class="why-us-card slide-up stagger-3">
+          <div class="why-us-icon">
+            <i data-lucide="truck" style="width:28px;height:28px"></i>
           </div>
-          <h3 style="margin-bottom:8px">Full Series, One Stop</h3>
-          <p style="font-size:0.875rem;color:#6b7280">From 5L lab mixers to 200L+ production scale — we cover your entire growth journey with consistent quality.</p>
-        </div>
-        <div class="industry-card fade-in" style="text-align:left;padding:32px">
-          <div class="industry-card-icon" style="margin:0 0 20px 0">
-            <i data-lucide="wrench" style="width:28px;height:28px"></i>
-          </div>
-          <h3 style="margin-bottom:8px">Industry-Specific Customization</h3>
-          <p style="font-size:0.875rem;color:#6b7280">Specialized models for lithium battery, ceramics, and more — not one-size-fits-all, but purpose-built for your application.</p>
+          <h3>Fast Delivery</h3>
+          <p>Average lead time: 10 working days. From 5L lab mixers to 200L+ production scale — we cover your entire growth journey.</p>
         </div>
       </div>
     </div>
@@ -327,28 +392,26 @@
           <h4>Products</h4>
           <ul>
             <li><a href="products/planetary-vacuum-mixer.html">Planetary Vacuum Mixer</a></li>
+            <li><a href="products/double-planetary-mixer.html">Double Planetary Mixer</a></li>
             <li><a href="products/scraping-grinding-machine.html">Planetary Ball Mill</a></li>
             <li><a href="products/mixer-machine.html">Ink Mixer / Rolling Machine</a></li>
-            <li><a href="products/screen-frame-dryer.html">Stencil Inspection Machine</a></li>
             <li><a href="products/screening-machine.html">Mealworm Screening Machine</a></li>
           </ul>
         </div>
         <div>
-          <h4>Industries</h4>
+          <h4>Company</h4>
           <ul>
-            <li><a href="industries/lithium-battery.html">Lithium Battery</a></li>
-            <li><a href="industries/electronic-ceramics.html">Electronic Ceramics</a></li>
-            <li><a href="industries/coatings-inks.html">Coatings & Inks</a></li>
-            <li><a href="industries/adhesives-sealants.html">Adhesives & Sealants</a></li>
-            <li><a href="industries/cosmetics-pharma.html">Cosmetics & Pharma</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="industries/index.html">Industries</a></li>
+            <li><a href="support/index.html">Technical Support</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
         <div>
           <h4>Contact</h4>
           <ul>
             <li><a href="mailto:sales@zhiditech.com">sales@zhiditech.com</a></li>
-            <li><a href="https://wa.me/8613800000000" target="_blank">WhatsApp: +86 138-0000-0000</a></li>
-            <li><a href="contact.html">Online Inquiry</a></li>
+            <li><a href="https://wa.me/8613800000000" target="_blank">WhatsApp</a></li>
             <li><a href="https://szzhidi.en.alibaba.com" target="_blank">Alibaba Store</a></li>
           </ul>
         </div>
@@ -358,7 +421,6 @@
         <div class="footer-social">
           <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin" style="width:20px;height:20px"></i></a>
           <a href="#" aria-label="YouTube"><i data-lucide="youtube" style="width:20px;height:20px"></i></a>
-          <a href="#" aria-label="Facebook"><i data-lucide="facebook" style="width:20px;height:20px"></i></a>
         </div>
       </div>
     </div>
@@ -382,7 +444,7 @@
     "alternateName": "ZHIDI Tech",
     "url": "https://zhiditech.com",
     "logo": "https://zhiditech.com/assets/images/company/logo.png",
-    "description": "Professional manufacturer of industrial mixing, grinding, and processing equipment including planetary vacuum stirring defoaming machines.",
+    "description": "Professional manufacturer of industrial mixing, grinding, and processing equipment including planetary vacuum stirring defoaming machines and double planetary mixers.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Huizhou",
