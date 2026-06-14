@@ -85,25 +85,8 @@
     </div>
   </section>
 
-  <!-- Company Video -->
-  <section class="section section-alt">
-    <div class="container">
-      <div class="section-header fade-in">
-        <span class="section-label">Company Tour</span>
-        <h2>Take a Look Inside</h2>
-        <p>Watch our company overview video to see our facility, team, and capabilities</p>
-      </div>
-      <div class="fade-in" style="max-width:900px;margin:0 auto;border-radius:16px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,0.12)">
-        <video controls poster="assets/images/company/banner.jpg" style="width:100%;display:block" preload="metadata">
-          <source src="assets/videos/company-overview.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-  </section>
-
   <!-- Factory -->
-  <section class="section">
+  <section class="section section-alt">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Our Factory</span>
@@ -112,7 +95,12 @@
       </div>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px" class="fade-in">
-        <div style="background:var(--color-bg-alt);border-radius:12px;height:320px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px">
+        <div style="border-radius:12px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,0.08)">
+          <video controls poster="assets/images/company/banner.jpg" style="width:100%;display:block" preload="metadata">
+            <source src="assets/videos/company-overview.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
           <i data-lucide="factory" style="width:64px;height:64px;color:var(--color-accent)"></i>
           <p style="color:var(--color-text-light);font-size:0.875rem">Factory photos coming soon</p>
         </div>
