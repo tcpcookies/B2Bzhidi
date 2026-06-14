@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "/Users/wenchengdr/.npm-global/bin/chrome-devtools-mcp",
+      "args": ["--browserUrl=http://127.0.0.1:9222"]
+    }
+  }
+}
